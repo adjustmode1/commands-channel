@@ -1,0 +1,15 @@
+node_modules
+dist
+
+.idea
+.github
+.git
+.husky
+
+.gitignore
+.eslintignore
+.eslintrc.js
+.prettierrc
+
+README.md
+
