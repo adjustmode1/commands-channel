@@ -27,7 +27,7 @@ const LOG_LEVEL = config.get('log.level', [
 
 async function bootstrap() {
   const paths = [
-    '@halomeapis/halome-proto-files/halome/chat_media/v3/services/channel.proto',
+    '@adjustmode1/proto-files-channel/halome/chat_media/v3/services/channel.proto',
   ];
 
   const options = {
@@ -37,7 +37,7 @@ async function bootstrap() {
     loader: {
       includeDirs: [
         dirname(require.resolve('google-proto-files/package.json')),
-        dirname(require.resolve('@halomeapis/halome-proto-files/package.json')),
+        dirname(require.resolve('@adjustmode1/proto-files-channel/package.json')),
       ],
     },
     ...config.get('grpc.options', {}),

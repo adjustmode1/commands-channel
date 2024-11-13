@@ -33,6 +33,8 @@ export class RpcChannelRepoClient implements OnModuleInit {
         return new Error('error');
       }
 
+      console.log(`------------------------------- ${JSON.stringify(result, null, 2)}`)
+
       return result.data as string;
     } catch (error) {
       this.logger.error('[EXCEPTION] .CreateDataChannel', {
