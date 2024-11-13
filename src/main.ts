@@ -27,15 +27,12 @@ const LOG_LEVEL = config.get('log.level', [
 
 async function bootstrap() {
   const paths = [
-    '@halomeapis/halome-proto-files/halome/internal/user/v3/services/data_user_profile.proto',
-    '@halomeapis/halome-proto-files/halome/internal/user/v3/services/data_user_connect.proto',
-    '@halomeapis/halome-proto-files/halome/internal/user/v3/services/ringback_tone.proto',
-    '@halomeapis/halome-proto-files/halome/internal/user/v3/services/data_user_visited_profile.proto',
+    '@halomeapis/halome-proto-files/halome/chat_media/v3/services/channel.proto',
   ];
 
   const options = {
     url: `0.0.0.0:${SERVICE_PORT}`,
-    package: ['halome.internal.user.v3.services'],
+    package: ['halome.chat_media.v3.services'],
     protoPath: paths.map((path) => require.resolve(path)),
     loader: {
       includeDirs: [

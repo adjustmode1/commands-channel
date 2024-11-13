@@ -28,8 +28,7 @@ export class CreateDataChannelHandler
 
     return this.channelInternal.CreateDataChannel({
       workspaceId,
-      channelId: ulid(),
-      name
+      name,
     })
   }
 }

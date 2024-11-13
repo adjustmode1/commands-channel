@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@adjustmode1/internal-channel':
-    specifier: 3.0.7
-    version: 3.0.7(@elastic/elasticsearch@8.15.0)(@halomeapis/halome-proto-files@0.10.179)(@nestjs/event-emitter@1.4.1)(@nestjs/graphql@11.0.6)(@opentelemetry/auto-instrumentations-node@0.38.0)(@opentelemetry/context-async-hooks@1.17.0)(@opentelemetry/exporter-metrics-otlp-grpc@0.41.2)(@opentelemetry/exporter-metrics-otlp-proto@0.41.2)(@opentelemetry/exporter-trace-otlp-grpc@0.41.2)(@opentelemetry/exporter-trace-otlp-http@0.41.2)(@opentelemetry/exporter-trace-otlp-proto@0.41.2)(@opentelemetry/propagator-jaeger@1.17.0)(@opentelemetry/resource-detector-container@0.3.1)(@swc/cli@0.1.62)(@swc/core@1.3.83)
+    specifier: 4.0.1
+    version: 4.0.1(@elastic/elasticsearch@8.15.0)(@halomeapis/halome-proto-files@0.10.180)(@nestjs/event-emitter@1.4.1)(@nestjs/graphql@11.0.6)(@opentelemetry/auto-instrumentations-node@0.38.0)(@opentelemetry/context-async-hooks@1.17.0)(@opentelemetry/exporter-metrics-otlp-grpc@0.41.2)(@opentelemetry/exporter-metrics-otlp-proto@0.41.2)(@opentelemetry/exporter-trace-otlp-grpc@0.41.2)(@opentelemetry/exporter-trace-otlp-http@0.41.2)(@opentelemetry/exporter-trace-otlp-proto@0.41.2)(@opentelemetry/propagator-jaeger@1.17.0)(@opentelemetry/resource-detector-container@0.3.1)(@swc/cli@0.1.62)(@swc/core@1.3.83)
   '@adjustmode1/proto-files-channel':
     specifier: 1.0.1
     version: 1.0.1(@grpc/grpc-js@1.8.11)(@grpc/proto-loader@0.7.5)
@@ -23,9 +23,12 @@ dependencies:
   '@halomeapis/halome-error-codes':
     specifier: ^0.2.27
     version: 0.2.27(@nestjs/microservices@10.2.6)(class-transformer@0.5.1)(class-validator@0.14.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+  '@halomeapis/halome-proto-files':
+    specifier: 0.10.180
+    version: 0.10.180(@grpc/grpc-js@1.8.11)(@grpc/proto-loader@0.7.5)
   '@halomeapis/nestjs-common-modules':
     specifier: ^0.4.2
-    version: 0.4.2(@grpc/grpc-js@1.8.11)(@halomeapis/halome-error-codes@0.2.27)(@halomeapis/halome-proto-files@0.10.179)(@metinseylan/nestjs-opentelemetry@3.0.0)(@nestjs/common@10.2.6)(@nestjs/config@3.1.1)(@nestjs/core@10.2.6)(@nestjs/cqrs@10.2.5)(@opentelemetry/sdk-trace-base@1.17.0)(ioredis@5.3.2)(js-yaml@4.1.0)(lodash@4.17.21)
+    version: 0.4.2(@grpc/grpc-js@1.8.11)(@halomeapis/halome-error-codes@0.2.27)(@halomeapis/halome-proto-files@0.10.180)(@metinseylan/nestjs-opentelemetry@3.0.0)(@nestjs/common@10.2.6)(@nestjs/config@3.1.1)(@nestjs/core@10.2.6)(@nestjs/cqrs@10.2.5)(@opentelemetry/sdk-trace-base@1.17.0)(ioredis@5.3.2)(js-yaml@4.1.0)(lodash@4.17.21)
   '@metinseylan/nestjs-opentelemetry':
     specifier: ^3.0.0
     version: 3.0.0(@grpc/grpc-js@1.8.11)(@nestjs/common@10.2.6)(@nestjs/core@10.2.6)(ioredis@5.3.2)(reflect-metadata@0.1.13)
@@ -210,8 +213,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /@adjustmode1/internal-channel@3.0.7(@elastic/elasticsearch@8.15.0)(@halomeapis/halome-proto-files@0.10.179)(@nestjs/event-emitter@1.4.1)(@nestjs/graphql@11.0.6)(@opentelemetry/auto-instrumentations-node@0.38.0)(@opentelemetry/context-async-hooks@1.17.0)(@opentelemetry/exporter-metrics-otlp-grpc@0.41.2)(@opentelemetry/exporter-metrics-otlp-proto@0.41.2)(@opentelemetry/exporter-trace-otlp-grpc@0.41.2)(@opentelemetry/exporter-trace-otlp-http@0.41.2)(@opentelemetry/exporter-trace-otlp-proto@0.41.2)(@opentelemetry/propagator-jaeger@1.17.0)(@opentelemetry/resource-detector-container@0.3.1)(@swc/cli@0.1.62)(@swc/core@1.3.83):
-    resolution: {integrity: sha512-GfGpyZVA6WKWht7wLzjHexEk/LMF9cHhEsbhZDbYt5yeYE8MD5AYtW0p0/WleuAur1Pw5qqmx9A7v1jyU8xJZA==, tarball: https://npm.pkg.github.com/download/@adjustmode1/internal-channel/3.0.7/af5ba7ec240c93833942f1c35a40b34d9293e885}
+  /@adjustmode1/internal-channel@4.0.1(@elastic/elasticsearch@8.15.0)(@halomeapis/halome-proto-files@0.10.180)(@nestjs/event-emitter@1.4.1)(@nestjs/graphql@11.0.6)(@opentelemetry/auto-instrumentations-node@0.38.0)(@opentelemetry/context-async-hooks@1.17.0)(@opentelemetry/exporter-metrics-otlp-grpc@0.41.2)(@opentelemetry/exporter-metrics-otlp-proto@0.41.2)(@opentelemetry/exporter-trace-otlp-grpc@0.41.2)(@opentelemetry/exporter-trace-otlp-http@0.41.2)(@opentelemetry/exporter-trace-otlp-proto@0.41.2)(@opentelemetry/propagator-jaeger@1.17.0)(@opentelemetry/resource-detector-container@0.3.1)(@swc/cli@0.1.62)(@swc/core@1.3.83):
+    resolution: {integrity: sha512-hTl3fcXswH5QK9v4tXUUYSoJTv7Z/T6LQ6slhw1VOkcH4PJFWxS1bcaTtFFZVMwulFclcvVeV/xKDEK9U81y2Q==, tarball: https://npm.pkg.github.com/download/@adjustmode1/internal-channel/4.0.1/1996138e48237b39e4a3b6996f23a779e97e9410}
     engines: {node: '>=18 <19'}
     dependencies:
       '@adjustmode1/proto-files': 3.0.1(@grpc/grpc-js@1.8.11)(@grpc/proto-loader@0.7.5)
@@ -219,7 +222,7 @@ packages:
       '@grpc/grpc-js': 1.8.11
       '@grpc/proto-loader': 0.7.5
       '@halomeapis/halome-error-codes': 0.2.27(@nestjs/microservices@10.2.6)(class-transformer@0.5.1)(class-validator@0.14.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@halomeapis/nestjs-common-modules': 0.4.2(@grpc/grpc-js@1.8.11)(@halomeapis/halome-error-codes@0.2.27)(@halomeapis/halome-proto-files@0.10.179)(@metinseylan/nestjs-opentelemetry@3.0.0)(@nestjs/common@10.4.1)(@nestjs/config@3.1.1)(@nestjs/core@10.2.6)(@nestjs/cqrs@10.2.5)(@opentelemetry/sdk-trace-base@1.17.0)(ioredis@5.3.2)(js-yaml@4.1.0)(lodash@4.17.21)
+      '@halomeapis/nestjs-common-modules': 0.4.2(@grpc/grpc-js@1.8.11)(@halomeapis/halome-error-codes@0.2.27)(@halomeapis/halome-proto-files@0.10.180)(@metinseylan/nestjs-opentelemetry@3.0.0)(@nestjs/common@10.4.1)(@nestjs/config@3.1.1)(@nestjs/core@10.2.6)(@nestjs/cqrs@10.2.5)(@opentelemetry/sdk-trace-base@1.17.0)(ioredis@5.3.2)(js-yaml@4.1.0)(lodash@4.17.21)
       '@metinseylan/nestjs-opentelemetry': 3.0.0(@grpc/grpc-js@1.8.11)(@nestjs/common@10.4.1)(@nestjs/core@10.2.6)(ioredis@5.3.2)(reflect-metadata@0.1.13)
       '@nestjs/cli': 10.1.18(@swc/cli@0.1.62)(@swc/core@1.3.83)
       '@nestjs/common': 10.4.1(class-transformer@0.5.1)(class-validator@0.14.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
@@ -1209,8 +1212,8 @@ packages:
       - rxjs
     dev: false
 
-  /@halomeapis/halome-proto-files@0.10.179(@grpc/grpc-js@1.8.11)(@grpc/proto-loader@0.7.5):
-    resolution: {integrity: sha512-r0hUEkS/17CuvEMwJCmkNpIob6zD9br/p8g9tLA0lNjIEss8tlu7+4Up33sjhy8BkHUFuFPEFIKI9/7XFkreTg==, tarball: https://npm.pkg.github.com/download/@halomeapis/halome-proto-files/0.10.179/3c7edf5846310969acbdb5178335a8278d150e57}
+  /@halomeapis/halome-proto-files@0.10.180(@grpc/grpc-js@1.8.11)(@grpc/proto-loader@0.7.5):
+    resolution: {integrity: sha512-5KEaY9UOb8pVxOmY2aFJfobIGDDfh4ghsDCbsbJ/rjrvi+p/Z8QguSJSB0fc91HRjsgvGEV9LEd+OWAFR+Gqsg==, tarball: https://npm.pkg.github.com/download/@halomeapis/halome-proto-files/0.10.180/3eda93d2c1167a5d86c598c200f251511fee3b62}
     peerDependencies:
       '@grpc/grpc-js': ^1.7.3
       '@grpc/proto-loader': ^0.7.3
@@ -1223,7 +1226,7 @@ packages:
       typescript: 5.3.3
     dev: false
 
-  /@halomeapis/nestjs-common-modules@0.4.2(@grpc/grpc-js@1.8.11)(@halomeapis/halome-error-codes@0.2.27)(@halomeapis/halome-proto-files@0.10.179)(@metinseylan/nestjs-opentelemetry@3.0.0)(@nestjs/common@10.2.6)(@nestjs/config@3.1.1)(@nestjs/core@10.2.6)(@nestjs/cqrs@10.2.5)(@opentelemetry/sdk-trace-base@1.17.0)(ioredis@5.3.2)(js-yaml@4.1.0)(lodash@4.17.21):
+  /@halomeapis/nestjs-common-modules@0.4.2(@grpc/grpc-js@1.8.11)(@halomeapis/halome-error-codes@0.2.27)(@halomeapis/halome-proto-files@0.10.180)(@metinseylan/nestjs-opentelemetry@3.0.0)(@nestjs/common@10.2.6)(@nestjs/config@3.1.1)(@nestjs/core@10.2.6)(@nestjs/cqrs@10.2.5)(@opentelemetry/sdk-trace-base@1.17.0)(ioredis@5.3.2)(js-yaml@4.1.0)(lodash@4.17.21):
     resolution: {integrity: sha512-BmoZ5zNMX2xL3PUZ7oaTn68jTpoGeyIquXs2fd6uIJrNngj5iznE3GpoMswwyeP0aLe4e0ijJRNpI0veYmGwig==, tarball: https://npm.pkg.github.com/download/@halomeapis/nestjs-common-modules/0.4.2/ca627e344730c04444b1c20c63a0b794e5df722e}
     engines: {node: '>=18 <19'}
     peerDependencies:
@@ -1242,7 +1245,7 @@ packages:
     dependencies:
       '@grpc/grpc-js': 1.8.11
       '@halomeapis/halome-error-codes': 0.2.27(@nestjs/microservices@10.2.6)(class-transformer@0.5.1)(class-validator@0.14.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@halomeapis/halome-proto-files': 0.10.179(@grpc/grpc-js@1.8.11)(@grpc/proto-loader@0.7.5)
+      '@halomeapis/halome-proto-files': 0.10.180(@grpc/grpc-js@1.8.11)(@grpc/proto-loader@0.7.5)
       '@metinseylan/nestjs-opentelemetry': 3.0.0(@grpc/grpc-js@1.8.11)(@nestjs/common@10.2.6)(@nestjs/core@10.2.6)(ioredis@5.3.2)(reflect-metadata@0.1.13)
       '@nestjs/common': 10.2.6(class-transformer@0.5.1)(class-validator@0.14.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/config': 3.1.1(@nestjs/common@10.2.6)(reflect-metadata@0.1.13)
@@ -1254,7 +1257,7 @@ packages:
       lodash: 4.17.21
     dev: false
 
-  /@halomeapis/nestjs-common-modules@0.4.2(@grpc/grpc-js@1.8.11)(@halomeapis/halome-error-codes@0.2.27)(@halomeapis/halome-proto-files@0.10.179)(@metinseylan/nestjs-opentelemetry@3.0.0)(@nestjs/common@10.4.1)(@nestjs/config@3.1.1)(@nestjs/core@10.2.6)(@nestjs/cqrs@10.2.5)(@opentelemetry/sdk-trace-base@1.17.0)(ioredis@5.3.2)(js-yaml@4.1.0)(lodash@4.17.21):
+  /@halomeapis/nestjs-common-modules@0.4.2(@grpc/grpc-js@1.8.11)(@halomeapis/halome-error-codes@0.2.27)(@halomeapis/halome-proto-files@0.10.180)(@metinseylan/nestjs-opentelemetry@3.0.0)(@nestjs/common@10.4.1)(@nestjs/config@3.1.1)(@nestjs/core@10.2.6)(@nestjs/cqrs@10.2.5)(@opentelemetry/sdk-trace-base@1.17.0)(ioredis@5.3.2)(js-yaml@4.1.0)(lodash@4.17.21):
     resolution: {integrity: sha512-BmoZ5zNMX2xL3PUZ7oaTn68jTpoGeyIquXs2fd6uIJrNngj5iznE3GpoMswwyeP0aLe4e0ijJRNpI0veYmGwig==, tarball: https://npm.pkg.github.com/download/@halomeapis/nestjs-common-modules/0.4.2/ca627e344730c04444b1c20c63a0b794e5df722e}
     engines: {node: '>=18 <19'}
     peerDependencies:
@@ -1273,7 +1276,7 @@ packages:
     dependencies:
       '@grpc/grpc-js': 1.8.11
       '@halomeapis/halome-error-codes': 0.2.27(@nestjs/microservices@10.2.6)(class-transformer@0.5.1)(class-validator@0.14.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@halomeapis/halome-proto-files': 0.10.179(@grpc/grpc-js@1.8.11)(@grpc/proto-loader@0.7.5)
+      '@halomeapis/halome-proto-files': 0.10.180(@grpc/grpc-js@1.8.11)(@grpc/proto-loader@0.7.5)
       '@metinseylan/nestjs-opentelemetry': 3.0.0(@grpc/grpc-js@1.8.11)(@nestjs/common@10.4.1)(@nestjs/core@10.2.6)(ioredis@5.3.2)(reflect-metadata@0.1.13)
       '@nestjs/common': 10.4.1(class-transformer@0.5.1)(class-validator@0.14.0)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       '@nestjs/config': 3.1.1(@nestjs/common@10.4.1)(reflect-metadata@0.1.13)

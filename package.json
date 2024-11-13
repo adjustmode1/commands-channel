@@ -24,8 +24,9 @@
     "prepare": "[ \\\"$npm_config_production\\\" ] && exit 0; husky install"
   },
   "dependencies": {
-    "@adjustmode1/internal-channel": "3.0.7",
+    "@adjustmode1/internal-channel": "4.0.1",
     "@adjustmode1/proto-files-channel": "1.0.1",
+    "@halomeapis/halome-proto-files": "0.10.180",
     "@amplication/opentelemetry-nestjs": "^4.3.7",
     "@grpc/grpc-js": "^1.8.11",
     "@grpc/proto-loader": "^0.7.5",
